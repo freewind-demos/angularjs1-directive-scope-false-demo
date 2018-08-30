@@ -1,7 +1,10 @@
 AngularJS1 Directive Scope False Demo
 =====================================
 
-`scope`: `false` (default): No scope will be created for the directive. The directive will use its parent's scope.
+`scope`
+-------
+
+- `false` (default): No scope will be created for the directive. The directive will use its parent's scope.
 
 ```
 npm install
