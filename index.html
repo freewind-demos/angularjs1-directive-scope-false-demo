@@ -3,17 +3,9 @@
 </head>
 <body ng-app="app">
 <div ng-controller="myController">
-    <div my-directive>
-        <h2>Inside myDirective</h2>
-        <div>controllerName: {{ controllerName }}</div>
-        <div>message: {{ message }}</div>
-    </div>
+    {{ message }}
     <hr/>
-    <div>
-        <h2>Outside myDirective</h2>
-        <div>controllerName: {{ controllerName }}</div>
-        <div>message: {{ message }}</div>
-    </div>
+    <my-directive></my-directive>
 </div>
 <script src="./node_modules/angular/angular.js"></script>
 <script src="./app.js"></script>
